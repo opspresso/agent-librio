@@ -1,0 +1,37 @@
+# misc
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
+
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# env
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local kubeconfig; credentials are covered by the env rules above.
+deploy/idc/kubeconfig
+
+# testing
+coverage/
+test-results/
+playwright-report/
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+
+# prompt files
+*.prompt.md
